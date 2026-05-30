@@ -1,0 +1,5 @@
+model:
+  name: resnet18
+  pretrained: true
+  num_classes: 5
+  dropout: 0.2

@@ -1,0 +1,6 @@
+data:
+  image_size: 224
+  data_dir: ${oc.env:mlops_mipt__26-v2}/data/raw
+  val_split: 0.1
+  test_split: 0.1
+  num_classes: 5

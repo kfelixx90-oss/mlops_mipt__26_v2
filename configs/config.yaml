@@ -1,0 +1,8 @@
+defaults:
+  - data: preprocessing
+  - model: resnet18
+  - train: default
+  - _self_
+
+logging:
+  mlflow_uri: "http://127.0.0.1:8080"

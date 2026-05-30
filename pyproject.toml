@@ -1,0 +1,31 @@
+[project]
+name = "mlops-mipt-26-v2"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kfelixx90-oss",email = "kfelixx90@gmail.com"}
+]
+package-mode = false
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dvc (>=3.67.1,<4.0.0)",
+    "pre-commit (>=4.6.0,<5.0.0)",
+    "ruff (>=0.15.15,<0.16.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "mlops-mipt-26-v2"
+version = "0.1.0"
+description = ""
+authors = []
+package-mode = false
+[dependency-groups]
+dev = [
+    "pre-commit (>=4.6.0,<5.0.0)"
+]
